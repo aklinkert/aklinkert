@@ -15,7 +15,7 @@ jobs:
       contents: write
     steps:
       - name: Metrics embed
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base_indepth: true
