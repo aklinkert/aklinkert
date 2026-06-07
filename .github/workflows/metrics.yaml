@@ -19,7 +19,6 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base_indepth: true
-          plugin_lines: true
           plugin_languages: true
           plugin_languages_ignored: html, css
           plugin_traffic: true
